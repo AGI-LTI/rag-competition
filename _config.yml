@@ -20,11 +20,14 @@ author: AGI x LTI
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  Description: "#description"
+  Tracks: "#tracks"
+  Prizes: "#prizes"
+  Sponsors: "#sponsors"
+  Rules: "#rules"
+  Schedule: "#schedule"
+  Getting Started: "#getting-started"
+  Documentation: "#documentation"
 
 ################
 # --- Logo --- #

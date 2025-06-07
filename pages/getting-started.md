@@ -15,8 +15,8 @@ Whether you're entering one or both tracks, this page is your starting point for
 
 ---
 
-### 📚 Resources (Coming Soon)
+### Resources (Coming Soon)
 
-- *resources will be made available here soon.*
+- *resources will be made available soon.*
 
 ---

@@ -4,19 +4,35 @@ title: AGI x LTI RAG Competition
 subtitle: NeurIPS 2025 Competition
 ---
 
-### Description
+# Welcome to MMU-RAG
 
-### Tracks
+**MMU-RAG**: the *Massive Multi-Modal User-Centric Retrieval-Augmented Generation Benchmark*.
 
-### Prizes
+This competition invites researchers and developers to build **RAG systems** that perform under real-world conditions. Participants will tackle real-user queries, retrieve from web-scale corpora, and generate high-quality responses in both **text** and **video** formats.
 
-### Sponsors
+---
 
-### Rules
+## Tracks
 
-### Schedule
+MMU-RAG features two tracks:
 
-### Getting Started
+1. **Text-to-Text**
+2. **Text-to-Video**
 
-### Documentation
+Submissions are evaluated using a blend of:
+
+- Automatic metrics  
+- LLM-as-a-judge evaluations  
+- Real-time human feedback via our interactive **RAG-Arena** platform
+
+---
+
+## Why Participate?
+
+Whether you're advancing **retrieval strategies**, **generation quality**, or **multimodal outputs**, this is your opportunity to benchmark your system in a setting that reflects actual user needs.
+
+---
+
+**Ready to take on the challenge?**  
+Explore the [tracks](#), [datasets](#), and [submission guidelines](#) to get started.
 

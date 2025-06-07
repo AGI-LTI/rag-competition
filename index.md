@@ -33,7 +33,7 @@ Participants are expected to submit systems that retrieve from a text corpus and
 
 Participants may use the provided corpora or augment with any other background corpora or proprietary search APIs — as long as all external resources are **clearly documented** in their submissions.
 
-📥 [Download a set of validation queries here](#) <!-- Replace with actual download link -->
+[Download a set of validation queries here](#) <!-- Replace with actual download link -->
 
 ---
 

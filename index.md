@@ -1,10 +1,10 @@
 ---
 layout: home
-title: AGI x LTI RAG Competition
+title: Welcome to MMU-RAG
 subtitle: NeurIPS 2025 Competition
 ---
 
-# Welcome to MMU-RAG
+# 
 
 **MMU-RAG**: the *Massive Multi-Modal User-Centric Retrieval-Augmented Generation Benchmark*.
 

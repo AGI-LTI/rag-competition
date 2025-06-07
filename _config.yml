@@ -10,24 +10,26 @@
 ############################
 
 # Name of website
-title: AGI x LTI RAG Competition
+title: MMU-RAG
 
 # Your name to show in the footer
-author: AGI x LTI
+author: MMU-RAG
 
 ###############################################
 # --- List of links in the navigation bar --- #
 ###############################################
 
 navbar-links:
-  Description: "#description"
   Tracks: "#tracks"
+  Datasets: "#datasets"
+  Submission Guidelines: "#submission-guidelines"
   Prizes: "#prizes"
   Sponsors: "#sponsors"
   Rules: "#rules"
   Schedule: "#schedule"
   Getting Started: "#getting-started"
   Documentation: "#documentation"
+  About: "#about"
 
 ################
 # --- Logo --- #

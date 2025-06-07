@@ -34,5 +34,5 @@ Whether you're advancing **retrieval strategies**, **generation quality**, or **
 ---
 
 **Ready to take on the challenge?**  
-Explore the [tracks](#), [datasets](#), and [submission guidelines](#) to get started.
+Explore the [tracks](#tracks), [datasets](#datasets), and [submission guidelines](#submission-guidelines) to get started.
 

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Get Started
-permalink: /get-started/
+title: Getting Started
+permalink: /getting-started/
 ---
 
 This page provides everything you need to prepare your system for submission. You'll find:

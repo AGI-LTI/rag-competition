@@ -33,8 +33,6 @@ Participants may use the provided corpora or augment with any other background c
 
 [Download a set of validation queries here](#) <!-- Replace with actual download link -->
 
----
-
 ### Track B: Text-to-Video
 
 Participants are expected to submit systems that retrieve from a text corpus and generate **video responses** given a text query that benefits from a video-based reply.
@@ -52,7 +50,6 @@ The goal of the competition is to create a RAG system that is **robust to real-u
 2. A **retriever**
 3. A **generation model**
 
----
 
 ### **Data and Models**
 
@@ -63,7 +60,6 @@ However:
 - For systems with close-source components, please provide as much detail as possible for fair evaluation.
 - **Commercial API-only systems** (e.g., GPT-4o, Sonnet) are **not allowed**.
 
----
 
 ### **System Restrictions**
 

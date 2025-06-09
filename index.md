@@ -15,7 +15,7 @@ Participants will tackle real-user queries, retrieve from web-scale corpora, and
 Submissions are evaluated using a blend of:
 - Automatic metrics
 - LLM-as-a-judge evaluations
-- Real-time human feedback through our interactive **RAG-Arena** platform
+- Real-time human feedback through our interactive RAG-Arena platform
 
 Whether you're advancing retrieval strategies, generation quality, or multimodal outputs, this is your opportunity to benchmark your system in a setting that reflects actual user needs.
 
@@ -27,17 +27,13 @@ Whether you're advancing retrieval strategies, generation quality, or multimodal
 
 ### Track A: Text-to-Text
 
-Participants are expected to submit systems that retrieve from a text corpus and generate text responses given a query that is predetermined to benefit from a video response.
-
-Participants may use the provided corpora or augment with any other background corpora or proprietary search APIs — as long as all external resources are **clearly documented** in their submissions.
+Participants are expected to submit systems that retrieve from a text corpus, and generate video responses given a text query that is predetermined to benefit from a video response. Participants may use our provided corpora, or augment their generations with any other background corpora or (proprietary) search APIs, provided that all external resources are clearly documented in their submissions.
 
 [Validation queries will be available for download soon.](#) <!-- Replace with actual download link -->
 
 ### Track B: Text-to-Video
 
-Participants are expected to submit systems that retrieve from a text corpus and generate **video responses** given a text query that benefits from a video-based reply.
-
-Participants may use the provided corpora or augment with any other background corpora or proprietary search APIs — with all external resources clearly documented in their submissions.
+Participants are expected to submit systems that retrieve from a text corpus, and generate video responses given a text query that is predetermined to benefit from a video response. Participants may use our provided corpora, or augment their generations with any other background corpora or (proprietary) search APIs, provided that all external resources are clearly documented in their submissions.
 
 [Validation queries will be available for download soon.](#) <!-- Replace with actual download link -->
 

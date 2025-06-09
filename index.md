@@ -31,7 +31,7 @@ Participants are expected to submit systems that retrieve from a text corpus and
 
 Participants may use the provided corpora or augment with any other background corpora or proprietary search APIs — as long as all external resources are **clearly documented** in their submissions.
 
-[Download a set of validation queries will be made available soon](#) <!-- Replace with actual download link -->
+[Validation queries will be available for download soon.](#) <!-- Replace with actual download link -->
 
 ### Track B: Text-to-Video
 
@@ -39,7 +39,7 @@ Participants are expected to submit systems that retrieve from a text corpus and
 
 Participants may use the provided corpora or augment with any other background corpora or proprietary search APIs — with all external resources clearly documented in their submissions.
 
-[Download a set of validation queries will be made available soon](#) <!-- Replace with actual download link -->
+[Validation queries will be available for download soon.](#) <!-- Replace with actual download link -->
 
 ---
 

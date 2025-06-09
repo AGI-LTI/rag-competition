@@ -13,9 +13,9 @@ To participate:
 2. Develop your RAG system.
 3. To participate only in static evaluation:
    - Download the validation set.
-   - Submit generated outputs to the [submission page](#) <!-- Replace with actual link -->
+   - Submit generated outputs to the [submission page](#) *(to be released when the competition begins)* <!-- Replace with actual link -->
    - Submissions are ranked but are **not eligible for cash prizes**, for fairness.
-4. Submit a RAG system via a Docker image on the [submission page](#) <!-- Replace with actual link -->
+4. Submit a RAG system via a Docker image on the [submission page](#) *(to be released when the competition begins)* <!-- Replace with actual link -->
    - Participants may submit **at most one Docker image per week**.
 
 ---

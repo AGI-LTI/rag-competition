@@ -4,8 +4,6 @@ title: MMU-RAG
 subtitle: NeurIPS 2025 Competition
 ---
 
-## Welcome to MMU-RAG
-
 Welcome to the official website of **MMU-RAG**: the *Massive Multi-Modal User-Centric Retrieval-Augmented Generation* Benchmark. This competition invites researchers and developers to build RAG systems that perform in real-world conditions.
 
 Participants will tackle real-user queries, retrieve from web-scale corpora, and generate high-quality responses in both text and video formats.
@@ -43,7 +41,7 @@ Participants are expected to submit systems that retrieve from a text corpus and
 
 Participants may use the provided corpora or augment with any other background corpora or proprietary search APIs — with all external resources clearly documented in their submissions.
 
-📥 [Download a set of validation queries here](#) <!-- Replace with actual download link -->
+[Download a set of validation queries here](#) <!-- Replace with actual download link -->
 
 ---
 

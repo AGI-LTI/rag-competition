@@ -4,6 +4,6 @@ title: prizes
 permalink: /prizes/
 ---
 
-*content will be made available soon.*
+*Prizes will be release soon.*
 
 ---

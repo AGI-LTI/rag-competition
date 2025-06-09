@@ -20,10 +20,10 @@ author: MMU-RAG
 ###############################################
 
 navbar-links:
-  Prizes: "prizes"
-  Datasets: "datasets"
   Submission Guidelines: "submission-guidelines"
   Getting Started: "getting-started"
+  Prizes: "prizes"
+  Datasets: "datasets"
 
 ################
 # --- Logo --- #

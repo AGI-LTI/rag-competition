@@ -45,7 +45,7 @@ Submission of validation set generations entitles you to a chance to win **non-c
 
 #### Track A: Text-to-Text Generation
 
-Submit a `.jsonl` file with your generated text outputs. Each line should contain a JSON entry with the following keys:
+Submit a `.jsonl` file with your generated text outputs. Each line should contain a JSON entry that minimally contains the following keys:
 
 ```json
 {
@@ -58,9 +58,9 @@ Submit a `.jsonl` file with your generated text outputs. Each line should contai
 
 Submit a **compressed folder** containing:
 - The generated video files
-- A `.jsonl` file mapping queries to filenames
+- A `.jsonl` file mapping queries to the generated video file
 
-Each line in the `.jsonl` should be a JSON entry with the following keys:
+Each line in the `.jsonl` should be a JSON entry that minimally contains the following keys:
 
 ```json
 {

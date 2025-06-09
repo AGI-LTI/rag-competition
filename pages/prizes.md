@@ -1,6 +1,6 @@
 ---
 layout: page
-title: prizes
+title: Prizes
 permalink: /prizes/
 ---
 

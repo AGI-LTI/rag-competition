@@ -4,6 +4,6 @@ title: Datasets
 permalink: /datasets/
 ---
 
-*Datasets will be release soon.*
+*The datasets will be released soon.*
 
 ---

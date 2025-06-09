@@ -68,3 +68,19 @@ However:
 
 ---
 
+## Organizers
+
+- [Luo Qi Chan](https://luoqichan.github.io), DSO National Laboratories / Carnegie Mellon University  
+- [Tevin Wang](https://tevinwang.com), Carnegie Mellon University  
+- [Shuting Wang](https://shootingwong.github.io), Renmin University of China / Carnegie Mellon University  
+- Zhihan Zhang, Carnegie Mellon University  
+- Alfredo Gomez, Carnegie Mellon University  
+- [Prahaladh Chandrahasan](https://prahaladhchandrahasan.github.io), Carnegie Mellon University  
+- Lan Yan, Carnegie Mellon University  
+- Andy Tang, Carnegie Mellon University  
+- Zimeng (Chris) Qiu, Amazon Science  
+- Morteza Ziyadi, Amazon Science  
+- [Sherry Wu](https://www.cs.cmu.edu/~sherryw/), Carnegie Mellon University  
+- Mona Diab, Carnegie Mellon University  
+- [Akari Asai](https://akariasai.github.io), —  
+- [Chenyan Xiong](https://www.cs.cmu.edu/~cx/), Carnegie Mellon University  

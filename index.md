@@ -74,9 +74,9 @@ However:
 - [Prahaladh Chandrahasan](https://prahaladhchandrahasan.github.io), Carnegie Mellon University  
 - Lan Yan, Carnegie Mellon University  
 - Andy Tang, Carnegie Mellon University  
-- Zimeng (Chris) Qiu, Amazon Science  
-- Morteza Ziyadi, Amazon Science  
+- Zimeng (Chris) Qiu, Amazon AGI  
+- Morteza Ziyadi, Amazon AGI  
 - [Sherry Wu](https://www.cs.cmu.edu/~sherryw/), Carnegie Mellon University  
 - Mona Diab, Carnegie Mellon University  
-- [Akari Asai](https://akariasai.github.io), —  
+- [Akari Asai](https://akariasai.github.io), University of Washington
 - [Chenyan Xiong](https://www.cs.cmu.edu/~cx/), Carnegie Mellon University  

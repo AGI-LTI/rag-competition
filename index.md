@@ -27,7 +27,7 @@ Whether you're advancing retrieval strategies, generation quality, or multimodal
 
 ### Track A: Text-to-Text
 
-Participants are expected to submit systems that retrieve from a text corpus, and generate video responses given a text query that is predetermined to benefit from a video response. Participants may use our provided corpora, or augment their generations with any other background corpora or (proprietary) search APIs, provided that all external resources are clearly documented in their submissions.
+This track reflects the standard text-to-text RAG application. Participants are expected to submit systems that retrieve from a text corpus, and generate text responses given a text query Participants may use our provided corpora, or augment their generations with any other background corpora or (proprietary) search APIs, provided that all external resources are clearly documented in their submissions.
 
 [Validation queries will be available for download soon.](#) <!-- Replace with actual download link -->
 

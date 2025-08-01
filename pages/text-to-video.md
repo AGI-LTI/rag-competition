@@ -130,7 +130,6 @@ The generator or the text-to-video model can be either an open-source text-to-vi
 
 ![S3 Bucket with Video Output](https://agi-lti.github.io/MMU-RAGent/assets/img/submission/s3.png)
 
-### 
 
 #### 3. Dockerizing Your System
 

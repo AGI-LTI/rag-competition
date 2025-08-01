@@ -41,13 +41,13 @@ Please read the instructions below carefully and follow the correct format and p
 
 ```
 # Build the image
-docker build --platform linux/amd64 -t my-app:latest .
+docker buildx build --platform linux/amd64 -t my-app:latest .
 
 # Authenticate to ECR
 aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 123456789012.dkr.ecr.us-east-1.amazonaws.com
 
 # Tag for ECR
-docker tag my-app:latest 123456789012.dkr.ecr.us-east-1.amazonaws.com/my-app:latest
+docker tag my-app:latest 123456789012.dkr.ecr.us-east-1.amazonaws.com/latest
 
 # Push to ECR
 docker push 123456789012.dkr.ecr.us-east-1.amazonaws.com/my-app:latest

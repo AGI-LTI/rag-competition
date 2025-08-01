@@ -50,7 +50,7 @@ aws ecr get-login-password --region us-east-1 | docker login --username AWS --pa
 docker tag my-app:latest 123456789012.dkr.ecr.us-east-1.amazonaws.com/latest
 
 # Push to ECR
-docker push 123456789012.dkr.ecr.us-east-1.amazonaws.com/my-app:latest
+docker push 123456789012.dkr.ecr.us-east-1.amazonaws.com/latest
 ```
 
 

@@ -111,15 +111,3 @@ Each line in the `.jsonl` should be a JSON entry that minimally contains the fol
   "generated_video_fname": "string"  // Video filename in compressed folder
 }
 ```
-
-### 2. Static Evaluation on the Validation Set ONLY (Optional)
-
-This is an **offline submission** where you run your model on a shared validation set and submit your outputs as files. This allows you to:
-
-- Test your pipeline,
-- Benchmark your model, and
-- Be eligible for **non-cash prizes** (e.g., honorable mentions, spotlight features).
-
-You may submit for either or both evaluation types, but **only live evaluation submissions are eligible for cash prizes**.
-
-Please read the instructions below carefully and follow the correct format and process based on your submission type.

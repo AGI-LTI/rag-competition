@@ -44,10 +44,19 @@ Participants are expected to submit systems that retrieve from a text corpus, an
 
 ## Rules
 
-The goal of the competition is to create a RAG system that is **robust to real-user queries**. We provide starter code for a simple RAG system, comprising three components:
-1. An **embedding model**
-2. A **retriever**
-3. A **generation model**
+The goal of the competition is to create a RAG system that is **robust to real-user queries**. We provide starter code for different tracks:
+
+**Text-to-Text Track** - A comprehensive RAG system with eight components:
+1. **Document loader** - Load documents from various formats
+2. **Text cleaner** - Preprocessing and normalization
+3. **Tokenizer** - Text tokenization using HuggingFace
+4. **Chunker** - Document chunking with overlap
+5. **Indexer** - FAISS vector index creation
+6. **Retriever** - Semantic search and retrieval
+7. **Generator** - Answer generation using LLMs
+8. **Pipeline** - Main orchestration component
+
+**Text-to-Video Track** - Starter template for video generation systems
 
 
 ### **Data and Models**

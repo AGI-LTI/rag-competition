@@ -5,16 +5,11 @@ permalink: /submission-guidelines/
 ---
 
 
-This page outlines how to submit your system outputs for **evaluation** in the MMU-RAG competition. There are **two types of evaluations**, each with its own process:
+This page outlines how to submit your system outputs for **evaluation** in the MMU-RAG competition. There are **two types of evaluations**, each with its own process: 
 
-## Track-Specific Submission Details
 
-For detailed submission requirements and implementation guidelines for each track, please refer to:
 
-- **[Text-to-Text Track Details](/MMU-RAGent/text-to-text)** - Complete submission requirements and API specifications for the Text-to-Text track
-- **[Text-to-Video Track Details](/MMU-RAGent/text-to-video)** - Complete submission requirements and implementation guidelines for the Text-to-Video track 
-
-## 1. Live Evaluation using RAG-Arena System. 
+### 1. Live Evaluation via RAG-Arena (Required for Final Judging)
 
 In this setting, your system runs **dynamically** in response to live user queries. You must:
 
@@ -26,11 +21,27 @@ This evaluation will be used to determine the **final leaderboard rankings and c
 
 
 
+### 2. Static Evaluation on the Validation Set ONLY (Optional)
+
+This is an **offline submission** where you run your model on a shared validation set and submit your outputs as files. This allows you to:
+
+- Test your pipeline,
+- Benchmark your model, and
+- Be eligible for **non-cash prizes** (e.g., honorable mentions, spotlight features).
+
+You may submit for either or both evaluation types, but **only live evaluation submissions are eligible for cash prizes**.
+
+Please read the instructions below carefully and follow the correct format and process based on your submission type.
+
+
+
+## 1. Live Evaluation using RAG-Arena System. 
+
 ### DockerImage Creation and ECR repository push
 
 ```
 # Build the image
-docker buildx build --platform linux/amd64 -t my-app:latest .
+docker build --platform linux/amd64 -t my-app:latest .
 
 # Authenticate to ECR
 aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 123456789012.dkr.ecr.us-east-1.amazonaws.com
@@ -41,6 +52,8 @@ docker tag my-app:latest 123456789012.dkr.ecr.us-east-1.amazonaws.com/my-app:lat
 # Push to ECR
 docker push 123456789012.dkr.ecr.us-east-1.amazonaws.com/my-app:latest
 ```
+
+
 
 ### Docker Image specifications
 
@@ -75,7 +88,7 @@ Once a team is registered the organizers will contact you on their registered em
 
 You should upload your results to your assigned Google Drive folder and fill out the following google form.
 
-**Link:** [https://forms.gle/wRVKH7YfZXaM5QS1A](https://forms.gle/wRVKH7YfZXaM5QS1A)
+**Link:**[https://forms.gle/wRVKH7YfZXaM5QS1A](https://forms.gle/wRVKH7YfZXaM5QS1A)
 
 Note: Submission of validation set generations entitles you to a chance to win **non-cash prizes only**. These submissions are **not eligible for cash prizes** to ensure fairness.
 
@@ -111,3 +124,11 @@ Each line in the `.jsonl` should be a JSON entry that minimally contains the fol
   "generated_video_fname": "string"  // Video filename in compressed folder
 }
 ```
+
+
+## Track-Specific Submission Details
+
+For detailed submission requirements and implementation guidelines for each track, please refer to:
+
+- **[Text-to-Text Track Details](https://agi-lti.github.io/MMU-RAGent/text-to-text)** - Complete submission requirements and API specifications for the Text-to-Text track
+- **[Text-to-Video Track Details](https://agi-lti.github.io/MMU-RAGent/text-to-video)** - Complete submission requirements and implementation guidelines for the Text-to-Video track

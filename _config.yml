@@ -18,10 +18,14 @@ author: MMU-RAG
 ###############################################
 # --- List of links in the navigation bar --- #
 ###############################################
+url: "https://agi-lti.github.io"
+baseurl: "/MMU-RAGent"
 
 navbar-links:
   Submission Guidelines: "submission-guidelines"
   Getting Started: "getting-started"
+  Text-to-Text: "text-to-text"
+  Text-to-Video: "text-to-video"
   Prizes: "prizes"
   Datasets: "datasets"
 

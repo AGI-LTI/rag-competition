@@ -3,7 +3,6 @@ layout: home
 title: MMU-RAG
 subtitle: NeurIPS 2025 Competition
 ---
-
 Welcome to the official website of **MMU-RAG**: the *Massive Multi-Modal User-Centric Retrieval-Augmented Generation* Benchmark. This competition invites researchers and developers to build RAG systems that perform in real-world conditions.
 
 Participants will tackle real-user queries, retrieve from web-scale corpora, and generate high-quality responses in both text and video formats.
@@ -29,13 +28,17 @@ Whether you're advancing retrieval strategies, generation quality, or multimodal
 
 This track reflects the standard text-to-text RAG application. Participants are expected to submit systems that retrieve from a text corpus, and generate text responses given a text query. Participants may use our provided corpora, or augment their generations with any other background corpora or (proprietary) search APIs, provided that all external resources are clearly documented in their submissions.
 
-[Validation queries will be available for download soon.](#) <!-- Replace with actual download link -->
+!! **Now Accepting Deep Research Systems** !!
+In addition to standard RAG pipelines, we welcome submissions from *deep research systems*—models that perform multi-hop retrieval, structured reasoning, or integrate external tools or knowledge bases beyond conventional retrievers. If your system pushes the boundaries of retrieval and generation, we encourage you to participate.
+
+
+[Click here to download validation queries](https://drive.google.com/file/d/1-a7VaGGMrzxqTI1rCrQTiB_lqBjLOWcv/view?usp=sharing) <!-- Replace with actual download link -->
 
 ### Track B: Text-to-Video
 
 Participants are expected to submit systems that retrieve from a text corpus, and generate video responses given a text query that is predetermined to benefit from a video response. Participants may use our provided corpora, or augment their generations with any other background corpora or (proprietary) search APIs, provided that all external resources are clearly documented in their submissions.
 
-[Validation queries will be available for download soon.](#) <!-- Replace with actual download link -->
+[Click here to download validation queries](https://drive.google.com/file/d/1vh15gpHxYV9GBICN7_EI99TGR3uHAdSP/view?usp=sharing) <!-- Replace with actual download link -->
 
 ---
 
@@ -63,6 +66,11 @@ However:
 - **Human-verified outputs** or any form of **human intervention** are **not allowed**, to ensure full replicability of the systems.
 
 ---
+
+
+## Contact Us
+
+For any questions or clarifications, email the organizers directly at: mmu-rag@andrew.cmu.edu
 
 ## Organizers
 

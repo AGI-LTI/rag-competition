@@ -5,22 +5,26 @@ subtitle: NeurIPS 2025 Competition
 ---
 Welcome to the official website of **MMU-RAG**: the *Massive Multi-Modal User-Centric Retrieval-Augmented Generation* Benchmark. This competition invites researchers and developers to build RAG systems that perform in real-world conditions.
 
-Participants will tackle real-user queries, retrieve from web-scale corpora, and generate high-quality responses in both text and video formats.
+Participants will tackle real-user queries, retrieve from web-scale corpora, and generate high-quality responses in both text and/or video formats. 
 
-**MMU-RAG** features two tracks:  
-1. **Text-to-Text**  
+**MMU-RAG** features two tracks:
+
+1. **Text-to-Text**
 2. **Text-to-Video**
 
 Submissions are evaluated using a blend of:
+
 - Automatic metrics
 - LLM-as-a-judge evaluations
 - Real-time human feedback through our interactive RAG-Arena platform
 
-Whether you're advancing retrieval strategies, generation quality, or multimodal outputs, this is your opportunity to benchmark your system in a setting that reflects actual user needs.
+Whether you’re advancing retrieval strategies, generation quality, or multimodal outputs, this is your opportunity to benchmark your system in a setting that reflects actual user needs.
 
 **Ready to take on the challenge?** Explore the tracks, datasets, and submission guidelines to get started.
 
----
+------
+
+
 
 ## Tracks
 
@@ -31,42 +35,49 @@ This track reflects the standard text-to-text RAG application. Participants are 
 !! **Now Accepting Deep Research Systems** !!
 In addition to standard RAG pipelines, we welcome submissions from *deep research systems*—models that perform multi-hop retrieval, structured reasoning, or integrate external tools or knowledge bases beyond conventional retrievers. If your system pushes the boundaries of retrieval and generation, we encourage you to participate.
 
+[Click here to download validation queries](https://drive.google.com/file/d/1-a7VaGGMrzxqTI1rCrQTiB_lqBjLOWcv/view?usp=drive_link)
 
-[Click here to download validation queries](https://drive.google.com/file/d/1-a7VaGGMrzxqTI1rCrQTiB_lqBjLOWcv/view?usp=sharing) <!-- Replace with actual download link -->
+
 
 ### Track B: Text-to-Video
 
 Participants are expected to submit systems that retrieve from a text corpus, and generate video responses given a text query that is predetermined to benefit from a video response. Participants may use our provided corpora, or augment their generations with any other background corpora or (proprietary) search APIs, provided that all external resources are clearly documented in their submissions.
 
-[Click here to download validation queries](https://drive.google.com/file/d/1vh15gpHxYV9GBICN7_EI99TGR3uHAdSP/view?usp=sharing) <!-- Replace with actual download link -->
+[Click here to download validation queries](https://drive.google.com/file/d/1vh15gpHxYV9GBICN7_EI99TGR3uHAdSP/view?usp=sharing)
 
----
+------
+
+
 
 ## Rules
 
-The goal of the competition is to create a RAG system that is **robust to real-user queries**. We provide starter code for different tracks:
+The goal of the competition is to create a RAG system that is **robust to real-user queries**. We provide starter code for a simple RAG system, comprising three components:
 
-**Text-to-Text Track** - A comprehensive RAG system with eight components:
-1. **Document loader** - Load documents from various formats
-2. **Text cleaner** - Preprocessing and normalization
-3. **Tokenizer** - Text tokenization using HuggingFace
-4. **Chunker** - Document chunking with overlap
-5. **Indexer** - FAISS vector index creation
-6. **Retriever** - Semantic search and retrieval
-7. **Generator** - Answer generation using LLMs
-8. **Pipeline** - Main orchestration component
+1. An **embedding model**
+2. A **retriever**
+3. A **generation model**
 
-**Text-to-Video Track** - Starter template for video generation systems
 
 
 ### **Data and Models**
 
-Participants may use **any open- or close-source data or models**.  
+To encourage diversity in submissions, participants may use **any open- or close-source data or models**.
+
 However:
-- Systems that include **close-source and/or proprietary components** will be ranked on a **separate leaderboard** from fully open-source systems.
+
+- Systems that include **close-source and/or proprietary components** will be tagged clearly on leaderboards.
 - All retrieval methods, generation models, corpora, and external tools or APIs must be **clearly specified**.
 - For systems with close-source components, please provide as much detail as possible for fair evaluation.
-- **Commercial API-only systems** (e.g., GPT-4o, Sonnet) are **not allowed**.
+- **Commercial API-only deep research systems** (e.g.,  perplexity sonar API, Open AI deep research API) are **not allowed**.
+
+| Component                     | Open Source                                                  | Close Source                                                 |
+| ----------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Embedding / Retrieval Modules | Open-weight models: publicly available for public download and use (i.e available on HuggingFace or public GitHub repository) | Model weights are unavailable for public download and use.   |
+| Retrieval Corpus              | Fixed corpora that is available for public download and use. | Search implemented using commercial and/or proprietary API, often giving access to whole-of-internet or equivalent. |
+| Generation Modules            | Open-weight models: publicly available for public download and use (i.e available on HuggingFace or public GitHub repository) | Model weights are unavailable for public download and use    |
+
+Please feel free to consult the organizing team if any clarifications are required. 
+
 
 
 ### **System Restrictions**
@@ -74,10 +85,20 @@ However:
 - All outputs must be **model-generated**.
 - **Human-verified outputs** or any form of **human intervention** are **not allowed**, to ensure full replicability of the systems.
 
----
 
 
-## Contact Us
+# Calendar
+
+| **Date**            | **Event**                                                    |
+| ------------------- | ------------------------------------------------------------ |
+| **Aug 1, 2025**     | 🚀 Competition launch & dataset release                       |
+| **Oct 15, 2025**    | 📥 Submission deadline (all tracks)                           |
+| **Oct 15–21, 2025** | 🧪 **RAG-Arena** live evaluation window (real-time human feedback) |
+| **Dec 6-7, 2025**   | 🎤 **MMU-RAG Workshop at NeuRIPS 2025**<br />• Presentations by selected teams<br />• Winner and runner(s)-up announced |
+
+
+
+# Contact Us
 
 For any questions or clarifications, email the organizers directly at: mmu-rag@andrew.cmu.edu
 

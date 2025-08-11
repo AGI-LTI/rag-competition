@@ -41,16 +41,16 @@ Please read the instructions below carefully and follow the correct format and p
 
 ```
 # Build the image
-docker buildx build --platform linux/amd64 -t my-app:latest .
+docker build --platform linux/amd64 -t my-app:latest .
 
 # Authenticate to ECR
 aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 123456789012.dkr.ecr.us-east-1.amazonaws.com
 
 # Tag for ECR
-docker tag my-app:latest 123456789012.dkr.ecr.us-east-1.amazonaws.com/latest
+docker tag my-app:latest 123456789012.dkr.ecr.us-east-1.amazonaws.com/my-app:latest
 
 # Push to ECR
-docker push 123456789012.dkr.ecr.us-east-1.amazonaws.com/latest
+docker push 123456789012.dkr.ecr.us-east-1.amazonaws.com/my-app:latest
 ```
 
 
@@ -68,7 +68,7 @@ Each image should:
 
 Once you have pushed your Docker image to the ECR repository with the tag **latest** you should notify the organizers by filling the following google form.
 
-**Link:** [https://forms.gle/9uNcyrwDuZNZA569A](https://forms.gle/9uNcyrwDuZNZA569A)
+**Link:** https://forms.gle/9uNcyrwDuZNZA569A
 
 NOTE :
 
@@ -88,7 +88,7 @@ Once a team is registered the organizers will contact you on their registered em
 
 You should upload your results to your assigned Google Drive folder and fill out the following google form.
 
-**Link:**[https://forms.gle/wRVKH7YfZXaM5QS1A](https://forms.gle/wRVKH7YfZXaM5QS1A)
+**Link:** https://forms.gle/wRVKH7YfZXaM5QS1A
 
 Note: Submission of validation set generations entitles you to a chance to win **non-cash prizes only**. These submissions are **not eligible for cash prizes** to ensure fairness.
 
@@ -126,9 +126,27 @@ Each line in the `.jsonl` should be a JSON entry that minimally contains the fol
 ```
 
 
+
 ## Track-Specific Submission Details
 
 For detailed submission requirements and implementation guidelines for each track, please refer to:
 
 - **[Text-to-Text Track Details](https://agi-lti.github.io/MMU-RAGent/text-to-text)** - Complete submission requirements and API specifications for the Text-to-Text track
 - **[Text-to-Video Track Details](https://agi-lti.github.io/MMU-RAGent/text-to-video)** - Complete submission requirements and implementation guidelines for the Text-to-Video track
+
+
+
+## Repository Submission Requirement
+
+To ensure compliance with competition rules, **all participants must submit a GitHub repository** containing their system code and documentation.
+
+- The repository can be either:
+  - **Public**, or
+  - **Private**, shared directly with the organizers via GitHub access or a downloadable archive
+- This allows us to verify that your system does **not fully rely on commercial API-only models**, which are **not permitted** in this competition
+
+Please ensure that your repository includes:
+
+- Your full system pipeline (retriever, generator, and any custom components)
+- A README with clear setup and run instructions
+- Documentation of any external tools, models, or corpora used

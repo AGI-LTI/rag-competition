@@ -40,6 +40,53 @@ Both tracks offer:
 
 - Support for **static** and **dynamic** submission modes.
 
+### FineWeb Search API
+
+```
+GET https://clueweb22.us/fineweb/search
+```
+
+**Description:** This endpoint is for the FineWeb dataset. You may use FineWeb without an API key for temporary testing while awaiting ClueWeb API key approval.
+
+**Parameters:**
+- `query` (string): The search query
+- `k` (integer): The number of documents to return
+
+**Response Format:**
+
+```json
+{
+  "results": [Base64-encoded JSON documents]
+}
+```
+
+**Example Code (Python):**
+```python
+import requests
+import base64
+import json
+
+def query_fineweb(query, num_docs):
+    request_url = f"https://clueweb22.us/fineweb/search?query={query}&k={num_docs}"
+    
+    response = requests.get(request_url)
+    
+    if response.status_code != 200:
+        raise Exception(f"Error querying FineWeb: {response.status_code}")
+    
+    json_data = response.json()
+
+    results = json_data.get("results", [])
+    for returned_document in results:
+        # Assuming each document in 'results' is a base64 encoded JSON string
+        decoded_result = base64.b64decode(returned_document).decode("utf-8")
+        parsed_result = json.loads(decoded_result)
+        
+        text = parsed_result["text"]
+        url = parsed_result["url"]
+```
+
+
   
 
 ## ClueWeb-22 Search API Access

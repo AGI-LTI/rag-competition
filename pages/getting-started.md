@@ -36,7 +36,7 @@ Both tracks offer:
 
 - A **starter codebase** to speed up development.
 
-- API access to ClueWeb-22
+- API access to ClueWeb-22 and FineWeb
 
 - Support for **static** and **dynamic** submission modes.
 
@@ -103,7 +103,7 @@ All requests must include an API key:
 x-api-key: <YOUR_RETRIEVER_API_KEY>
 ```
 
-> Your API key will be emailed to you after your team registers.
+> Your API key will be sent to you after your ClueWeb application is approved.
 
 ------
 

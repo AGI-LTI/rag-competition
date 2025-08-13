@@ -37,7 +37,7 @@ Please read the instructions below carefully and follow the correct format and p
 
 ## 1. Live Evaluation using RAG-Arena System. 
 
-### DockerImage Creation and ECR repository push
+### DockerImage Creation and ECR repository push Sample Commands
 
 ```
 # Build the image

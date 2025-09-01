@@ -3,9 +3,10 @@ layout: home
 title: MMU-RAG
 subtitle: NeurIPS 2025 Competition
 ---
+
 Welcome to the official website of **MMU-RAG**: the *Massive Multi-Modal User-Centric Retrieval-Augmented Generation* Benchmark. This competition invites researchers and developers to build RAG systems that perform in real-world conditions.
 
-Participants will tackle real-user queries, retrieve from web-scale corpora, and generate high-quality responses in both text and/or video formats. 
+Participants will tackle real-user queries, retrieve from web-scale corpora, and generate high-quality responses in both text and/or video formats.
 
 **MMU-RAG** features two tracks:
 
@@ -18,85 +19,109 @@ Submissions are evaluated using a blend of:
 - LLM-as-a-judge evaluations
 - Real-time human feedback through our interactive RAG-Arena platform
 
-Whether you’re advancing retrieval strategies, generation quality, or multimodal outputs, this is your opportunity to benchmark your system in a setting that reflects actual user needs.
+### Evaluation Methods and Metrics
 
-**Ready to take on the challenge?** Explore the tracks, datasets, and submission guidelines to get started.
+**Illustration of our static evaluation methods and their corresponding metrics.**
+
+<table class="no-stripe">
+<thead>
+<tr>
+<th><strong>Track</strong></th>
+<th><strong>Evaluation Method</strong></th>
+<th><strong>Evaluation Metric</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td rowspan="3"><strong>Text-to-text</strong></td>
+<td>Automatic</td>
+<td>Rouge-L, BERTScore</td>
+</tr>
+<tr>
+<td>LLM-as-a-Judge</td>
+<td rowspan="2">Semantic Similarity, Coverage, Factuality, Citation Quality</td>
+</tr>
+<tr>
+<td>Human Likert Ratings</td>
+</tr>
+<tr>
+<td rowspan="3"><strong>Text-to-video</strong></td>
+<td>Automatic</td>
+<td>Subject Consistency, Background Consistency, Motion Smoothness, Dynamic Degree, Aesthetic Quality, Imaging Quality</td>
+</tr>
+<tr>
+<td>LLM-as-a-Judge</td>
+<td rowspan="2">Relevance, Precision, Recall, Usefulness</td>
+</tr>
+<tr>
+<td>Human Likert Ratings</td>
+</tr>
+</tbody>
+</table>
+
+Whether you're advancing retrieval strategies, generation quality, or multimodal outputs, this is your opportunity to benchmark your system in a setting that reflects actual user needs.
 
 ------
 
+## Timeline
 
+### Aug 1: **Competition launch & dataset release**
 
-## Tracks
+Two exciting tracks, both with provided corpora, APIs, and starter codes. You are also allowed to use external resources or APIs for retrieval as long as they are clearly documented in submission.
 
-### Track A: Text-to-Text
+| **Text-to-Text** ([details](/MMU-RAGent-Preview/text-to-text/)) | **Text-to-Video** ([details](/MMU-RAGent-Preview/text-to-video/)) |
+|---|---|
+| **Standard text-to-text RAG:** Create systems that retrieve from a text corpus and generate text responses from text queries<br><br>**Deep Research Systems welcome!** e.g. Multi-hop retrieval, Structured reasoning, Integration with external tools or knowledge bases, etc. | **More novel task!** Given text queries that benefit from video outputs ("how to peel banana"), Retrieve from a text corpus and generate video responses. |
 
-This track reflects the standard text-to-text RAG application. Participants are expected to submit systems that retrieve from a text corpus, and generate text responses given a text query. Participants may use our provided corpora, or augment their generations with any other background corpora or (proprietary) search APIs, provided that all external resources are clearly documented in their submissions.
+### Aug 1 - Oct 15: **ACTION REQUIRED**: Register to get necessary resources
 
-!! **Now Accepting Deep Research Systems** !!
-In addition to standard RAG pipelines, we welcome submissions from *deep research systems*—models that perform multi-hop retrieval, structured reasoning, or integrate external tools or knowledge bases beyond conventional retrievers. If your system pushes the boundaries of retrieval and generation, we encourage you to participate.
+- Go to [Getting Started page](/MMU-RAGent-Preview/getting-started/) to see:
+  - Our competition rules
+  - Instructions on registration (required)
+  - Detailed instructions for the two tracks
 
-[Click here to download validation queries](https://drive.google.com/file/d/1-a7VaGGMrzxqTI1rCrQTiB_lqBjLOWcv/view?usp=drive_link)
+### Aug 1 - Oct 15: **ACTION REQUIRED**: Competition Submission
 
+- Step-by-step instructions for the [text-to-text](/MMU-RAGent-Preview/text-to-text/) and [text-to-video](/MMU-RAGent-Preview/text-to-video/) tracks.
+- Submission options preview (applicable for both tracks):
 
+| **Static Evaluation (Non-Cash Prizes)** | **Full System Submission (Cash Prizes)** |
+|---|---|
+| Run your system on the public validation set<br><br>Submit outputs (.jsonl or video folder) via Google Drive<br><br>Eligible for honorable mentions and website features | Package your RAG system as a Docker image<br><br>Submit via AWS ECR for live + static evaluation<br><br>Eligible for leaderboard rankings and cash prizes |
 
-### Track B: Text-to-Video
+### Oct 15–21: **Organizers Running Evaluations**
 
-Participants are expected to submit systems that retrieve from a text corpus, and generate video responses given a text query that is predetermined to benefit from a video response. Participants may use our provided corpora, or augment their generations with any other background corpora or (proprietary) search APIs, provided that all external resources are clearly documented in their submissions.
+- Submissions will be evaluated using a blend of:
+  - Automatic metrics
+  - LLM-as-a-judge evaluations
+  - Real-time user feedback from our RAG-Arena
 
-[Click here to download validation queries](https://drive.google.com/file/d/1vh15gpHxYV9GBICN7_EI99TGR3uHAdSP/view?usp=sharing)
+**Action required:** All participants are required to submit a report detailing their system, methods, and results. Top-performing and innovative teams will be invited to present their work at our associated NeurIPS 2025 workshop. Further details on the report format and submission deadlines will be announced soon.
 
-------
+### Dec 6-7: **MMU-RAG Workshop at NeurIPS 2025**
 
+- Presentations by selected teams
+- Winners and runner(s)-up announced
 
+---
 
-## Rules
+## Prizes
 
-The goal of the competition is to create a RAG system that is **robust to real-user queries**. We provide starter code for a simple RAG system, comprising three components:
+We're excited to offer both **monetary prizes** and **academic exposure opportunities** to recognize outstanding submissions.
 
-1. An **embedding model**
-2. A **retriever**
-3. A **generation model**
+### 💰 Prize Pool
 
+Thanks to the support of Amazon, MMU-RAG offers a **$10,000 prize pool in AWS credits**. Prizes will be awarded to top-performing teams across both tracks.
 
+### 🎤 Present at NeurIPS
 
-### **Data and Models**
+Top teams will also be invited to **present their systems** during the **MMU-RAG competition session at NeurIPS 2025**. This is a unique opportunity to share your work with the community.
 
-To encourage diversity in submissions, participants may use **any open- or close-source data or models**.
+### 🥇 Eligibility
 
-However:
+Prize eligibility requires full system reproducibility and clear documentation of all components. Only participants in the **Full System Submission** option are eligible for cash prizes.
 
-- Systems that include **close-source and/or proprietary components** will be tagged clearly on leaderboards.
-- All retrieval methods, generation models, corpora, and external tools or APIs must be **clearly specified**.
-- For systems with close-source components, please provide as much detail as possible for fair evaluation.
-- **Commercial API-only deep research systems** (e.g.,  perplexity sonar API, Open AI deep research API) are **not allowed**.
-
-| Component                     | Open Source                                                  | Close Source                                                 |
-| ----------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Embedding / Retrieval Modules | Open-weight models: publicly available for public download and use (i.e available on HuggingFace or public GitHub repository) | Model weights are unavailable for public download and use.   |
-| Retrieval Corpus              | Fixed corpora that is available for public download and use. | Search implemented using commercial and/or proprietary API, often giving access to whole-of-internet or equivalent. |
-| Generation Modules            | Open-weight models: publicly available for public download and use (i.e available on HuggingFace or public GitHub repository) | Model weights are unavailable for public download and use    |
-
-Please feel free to consult the organizing team if any clarifications are required. 
-
-
-
-### **System Restrictions**
-
-- All outputs must be **model-generated**.
-- **Human-verified outputs** or any form of **human intervention** are **not allowed**, to ensure full replicability of the systems.
-
-
-
-# Calendar
-
-| **Date**            | **Event**                                                    |
-| ------------------- | ------------------------------------------------------------ |
-| **Aug 1, 2025**     | 🚀 Competition launch & dataset release                       |
-| **Oct 15, 2025**    | 📥 Submission deadline (all tracks)                           |
-| **Oct 15–21, 2025** | 🧪 **RAG-Arena** live evaluation window (real-time human feedback) |
-| **Dec 6-7, 2025**   | 🎤 **MMU-RAG Workshop at NeuRIPS 2025**<br />• Presentations by selected teams<br />• Winner and runner(s)-up announced |
-
-
+---
 
 # Contact Us
 

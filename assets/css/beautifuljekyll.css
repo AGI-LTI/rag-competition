@@ -836,6 +836,7 @@ table {
   padding: 0;
   overflow-x: auto;
   display: block;
+  margin-bottom: 1.5rem;
 }
 table tr {
   border-top: 1px solid #cccccc;
@@ -845,6 +846,9 @@ table tr {
 }
 table tr:nth-child(2n) {
   background-color: #f8f8f8;
+}
+table.no-stripe tr:nth-child(2n) {
+  background-color: var(--page-col);
 }
 table tr th,
 table tr td {
@@ -885,6 +889,9 @@ pre {
   line-height: 1.5em;
   border-radius: 0.25rem;
   padding: 0.59375rem;
+}
+.highlight {
+  margin-bottom: 1.5rem;
 }
 .highlight pre {
   border: none;

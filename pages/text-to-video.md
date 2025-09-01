@@ -30,6 +30,58 @@ Once a team is registered the organizers will contact you on their registered em
 6. Clueweb 22 API key (if requested)
     - Participants can request the Clueweb 22 API key later in the competition too!
 
+---
+
+### FineWeb Search API
+
+```
+GET https://clueweb22.us/fineweb/search
+```
+
+**Description:** This endpoint is for the FineWeb dataset. You may use FineWeb without an API key for temporary testing while awaiting ClueWeb API key approval.
+
+**Parameters:**
+
+-   `query` (string): The search query
+-   `k` (integer): The number of documents to return
+
+**Response Format:**
+
+```json
+{
+  "results": [Base64-encoded JSON documents]
+}
+```
+
+### ClueWeb-22 Search API Access
+
+**Base URL:**`https://clueweb22.us/search`
+
+#### Authentication
+
+All requests must include an API key:
+
+```
+x-api-key: <YOUR_RETRIEVER_API_KEY>
+```
+
+> Your API key will be sent to you after your ClueWeb application is approved.
+
+#### HTTP Request
+
+```
+GET https://clueweb22.us/search
+```
+
+**Query Parameters:**
+
+| Name | Type | Required | Description |
+| :--- | :--- | :--- | :--- |
+| `query` | string | yes | The search query string |
+| `k` | integer | yes | Number of documents to return |
+| `cw22_a` | boolean | no | Use ClueWeb22-A instead of default ClueWeb22-B |
+
+---
 
 
 ### Submission Requirements and Formats
@@ -128,8 +180,9 @@ The generator function should return a dictionary with the following keys:
 
 The generator or the text-to-video model can be either an open-source text-to-video model or an API call. The core backend infrastructure of the Arena platform expects the generated video to be stored in a dedicated S3 Bucket (that is assigned to participants on registration) and expects the generated output to be named `output.mp4`.
 
-![S3 Bucket with Video Output](https://agi-lti.github.io/MMU-RAGent/assets/img/submission/s3.png)
+![S3 Bucket with Video Output](https://agi-lti.github.io/MMU-RAGent-Preview/assets/img/submission/s3.png)
 
+### 
 
 #### 3. Dockerizing Your System
 
@@ -160,3 +213,9 @@ EXPOSE 4001
 # FastAPI (ASGI)
 CMD ["gunicorn", "video_baseline:app", "-w", "2", "-k", "uvicorn.workers.UvicornWorker", "--bind", "0.0.0.0:4001", "--timeout", "2000"]
 ```
+
+---
+
+**Submission Options:**
+- [Static Submission Guidelines](/MMU-RAGent-Preview/static-submission/) - Option 1: Static evaluation on validation set (non-cash prizes)
+- [Full System Submission Guidelines](/MMU-RAGent-Preview/full-submission/) - Option 2: Complete system submission (main competition, cash prizes)

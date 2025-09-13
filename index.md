@@ -69,20 +69,20 @@ Whether you're advancing retrieval strategies, generation quality, or multimodal
 
 Two exciting tracks, both with provided corpora, APIs, and starter codes. You are also allowed to use external resources or APIs for retrieval as long as they are clearly documented in submission.
 
-| **Text-to-Text** ([details](/MMU-RAGent-Preview/text-to-text/)) | **Text-to-Video** ([details](/MMU-RAGent-Preview/text-to-video/)) |
+| **Text-to-Text** ([details](/MMU-RAGent/text-to-text)) | **Text-to-Video** ([details](/MMU-RAGent/text-to-video)) |
 |---|---|
 | **Standard text-to-text RAG:** Create systems that retrieve from a text corpus and generate text responses from text queries<br><br>**Deep Research Systems welcome!** e.g. Multi-hop retrieval, Structured reasoning, Integration with external tools or knowledge bases, etc. | **More novel task!** Given text queries that benefit from video outputs ("how to peel banana"), Retrieve from a text corpus and generate video responses. |
 
 ### Aug 1 - Oct 15: **ACTION REQUIRED**: Register to get necessary resources
 
-- Go to [Getting Started page](/MMU-RAGent-Preview/getting-started/) to see:
+- Go to [Getting Started page](/MMU-RAGent/getting-started) to see:
   - Our competition rules
   - Instructions on registration (required)
   - Detailed instructions for the two tracks
 
 ### Aug 1 - Oct 15: **ACTION REQUIRED**: Competition Submission
 
-- Step-by-step instructions for the [text-to-text](/MMU-RAGent-Preview/text-to-text/) and [text-to-video](/MMU-RAGent-Preview/text-to-video/) tracks.
+- Step-by-step instructions for the [text-to-text](/MMU-RAGent/text-to-text) and [text-to-video](/MMU-RAGent/text-to-video) tracks.
 - Submission options preview (applicable for both tracks):
 
 | **Static Evaluation (Non-Cash Prizes)** | **Full System Submission (Cash Prizes)** |

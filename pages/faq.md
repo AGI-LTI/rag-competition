@@ -42,7 +42,7 @@ Yes. There is a hard limit of 10 minutes for the entire process.
 
 **For Text-to-Video systems:**
 
-- **Video quality metrics:** Standard automatic metrics from VBench (e.g., subject/background consistency, motion smoothness, dynamic degree, aesthetic quality, imaging quality).
+- **Video quality metrics:** Standard automatic metrics from [VBench](https://vchitect.github.io/VBench-project/) (e.g., subject/background consistency, motion smoothness, dynamic degree, aesthetic quality, imaging quality).
 - **Utility-focused metrics (via LLM-as-a-Judge and human Likert ratings):** Relevance, precision, recall, and usefulness of the generated video in addressing the query.
 
 For detailed info, please visit our [getting started page](/MMU-RAGent-Preview/getting-started/).

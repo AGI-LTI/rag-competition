@@ -47,7 +47,7 @@ Submissions are evaluated using a blend of:
 <tr>
 <td rowspan="3"><strong>Text-to-video</strong></td>
 <td>Automatic</td>
-<td>Subject Consistency, Background Consistency, Motion Smoothness, Dynamic Degree, Aesthetic Quality, Imaging Quality</td>
+<td>Subject Consistency, Background Consistency, Motion Smoothness, Dynamic Degree, Aesthetic Quality, Imaging Quality (from <a href="https://vchitect.github.io/VBench-project/">VBench</a>)</td>
 </tr>
 <tr>
 <td>LLM-as-a-Judge</td>

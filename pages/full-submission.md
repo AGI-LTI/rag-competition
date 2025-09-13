@@ -52,8 +52,8 @@ Once you have pushed your Docker image to the ECR repository with the tag **late
 
 For detailed technical requirements for your Docker image and API implementation for each track, please refer to:
 
--   **[Text-to-Text Track Details](/MMU-RAGent-Preview/text-to-text)**
--   **[Text-to-Video Track Details](/MMU-RAGent-Preview/text-to-video)**
+-   **[Text-to-Text Track Details](/MMU-RAGent/text-to-text)**
+-   **[Text-to-Video Track Details](/MMU-RAGent/text-to-video)**
 
 ## Repository Submission Requirement
 

@@ -331,5 +331,5 @@ Verify that:
 ---
 
 **Submission Options:**
-- [Static Submission Guidelines](/MMU-RAGent-Preview/static-submission/) - Option 1: Static evaluation on validation set (non-cash prizes)
-- [Full System Submission Guidelines](/MMU-RAGent-Preview/full-submission/) - Option 2: Complete system submission (main competition, cash prizes)
+- [Static Submission Guidelines](/MMU-RAGent/static-submission/) - Option 1: Static evaluation on validation set (non-cash prizes)
+- [Full System Submission Guidelines](/MMU-RAGent/full-submission/) - Option 2: Complete system submission (main competition, cash prizes)

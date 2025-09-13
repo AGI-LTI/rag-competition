@@ -45,7 +45,7 @@ Yes. There is a hard limit of 10 minutes for the entire process.
 - **Video quality metrics:** Standard automatic metrics from [VBench](https://vchitect.github.io/VBench-project/) (e.g., subject/background consistency, motion smoothness, dynamic degree, aesthetic quality, imaging quality).
 - **Utility-focused metrics (via LLM-as-a-Judge and human Likert ratings):** Relevance, precision, recall, and usefulness of the generated video in addressing the query.
 
-For detailed info, please visit our [getting started page](/MMU-RAGent-Preview/getting-started/).
+For detailed info, please visit our [getting started page](/MMU-RAGent/getting-started/).
 
 ##### 8. How will the online evaluation be carried out?
 
@@ -65,7 +65,7 @@ Yes. Responses are streamed as they are generated, so faster systems will surfac
 
 To obtain ClueWeb22 API access, you must complete the request process described on the [official ClueWeb22 website](https://lemurproject.org/clueweb22/obtain.php). Submit the required forms by email to the ClueWeb team and cc DeepResearch Gym (deepresearchgym@cmu.edu). Approval may take 2–4 weeks.
 
-While waiting for ClueWeb22 access, you may use the FineWeb API without an authentication key. Documentation and implementation details are available on each track's info page: [Text-to-Text](/MMU-RAGent-Preview/text-to-text/) and [Text-to-Video](/MMU-RAGent-Preview/text-to-video/).
+While waiting for ClueWeb22 access, you may use the FineWeb API without an authentication key. Documentation and implementation details are available on each track's info page: [Text-to-Text](/MMU-RAGent/text-to-text) and [Text-to-Video](/MMU-RAGent/text-to-video).
 
 ##### 10. What are the exact hardware configurations used to deploy the Docker image?
 

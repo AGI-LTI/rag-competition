@@ -180,7 +180,7 @@ The generator function should return a dictionary with the following keys:
 
 The generator or the text-to-video model can be either an open-source text-to-video model or an API call. The core backend infrastructure of the Arena platform expects the generated video to be stored in a dedicated S3 Bucket (that is assigned to participants on registration) and expects the generated output to be named `output.mp4`.
 
-![S3 Bucket with Video Output](https://agi-lti.github.io/MMU-RAGent-Preview/assets/img/submission/s3.png)
+![S3 Bucket with Video Output](https://agi-lti.github.io/MMU-RAGent/assets/img/submission/s3.png)
 
 ### 
 
@@ -217,5 +217,5 @@ CMD ["gunicorn", "video_baseline:app", "-w", "2", "-k", "uvicorn.workers.Uvicorn
 ---
 
 **Submission Options:**
-- [Static Submission Guidelines](/MMU-RAGent-Preview/static-submission/) - Option 1: Static evaluation on validation set (non-cash prizes)
-- [Full System Submission Guidelines](/MMU-RAGent-Preview/full-submission/) - Option 2: Complete system submission (main competition, cash prizes)
+- [Static Submission Guidelines](/MMU-RAGent/static-submission/) - Option 1: Static evaluation on validation set (non-cash prizes)
+- [Full System Submission Guidelines](/MMU-RAGent/full-submission/) - Option 2: Complete system submission (main competition, cash prizes)

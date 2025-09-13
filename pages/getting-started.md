@@ -59,8 +59,8 @@ Once a team is registered, the organizers will contact you on their registered e
 
 Choose your track to get started with detailed instructions, starter code, and submission guidelines:
 
--   **[Text-to-Text Track](/MMU-RAGent-Preview/text-to-text)** - Build RAG or Deep Research systems for text generation
--   **[Text-to-Video Track](/MMU-RAGent-Preview/text-to-video)** - Build RAG systems that retrieve relevant information and generate videos from text queries
+-   **[Text-to-Text Track](/MMU-RAGent/text-to-text)** - Build RAG or Deep Research systems for text generation
+-   **[Text-to-Video Track](/MMU-RAGent/text-to-video)** - Build RAG systems that retrieve relevant information and generate videos from text queries
 
 Each track page contains:
 - Starter code and templates

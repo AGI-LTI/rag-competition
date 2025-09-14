@@ -21,6 +21,24 @@ Once a team is registered the organizers will contact you on their registered em
 
 ---
 
+### Validation Set
+
+To support the development and debugging of your models, we are releasing a **validation set for the Text-to-Text track**:
+
+- [**Text-to-Text Validation Set**](https://drive.google.com/file/d/1-a7VaGGMrzxqTI1rCrQTiB_lqBjLOWcv/view?usp=sharing)
+
+The validation set consists of a small number of example queries and their gold text references. This set is meant to help teams test their pipelines and ensure compatibility with our evaluation format before final submission.
+
+**Note:** Validation sets are *not* used in the final evaluation and are safe to use for model tuning and format debugging.
+
+Each line in the validation set is a JSON object with the following fields:
+
+- **`query`** *(string)*: The user's information-seeking question.
+- **`reference`** *(string)*: A gold reference response that accurately and completely answers the query. This can be used for tuning or evaluation with automatic metrics such as ROUGE or BERTScore.
+- **`iid`** *(string)*: A unique instance identifier. This can be used to track and match outputs in your system.
+
+---
+
 ### Starter code
 
 We provide a modular starter code template to help you build your RAG system efficiently. The codebase is structured with separate components for each stage of the pipeline, making it easy to experiment and iterate.

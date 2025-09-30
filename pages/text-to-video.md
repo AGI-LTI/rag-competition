@@ -52,16 +52,30 @@ We provide a modular starter code template to help you build your RAG system eff
 
 ### FineWeb Search API
 
+**Base URL:**`https://clueweb22.us/fineweb/search`
+
+#### Authentication
+
+All requests must include an API key:
+
+```
+x-api-key: <YOUR_FINEWEB_API_KEY>
+```
+
+> Your API key will be sent to you after team registration.
+
+#### HTTP Request
+
 ```
 GET https://clueweb22.us/fineweb/search
 ```
 
-**Description:** This endpoint is for the FineWeb dataset. You may use FineWeb without an API key for temporary testing while awaiting ClueWeb API key approval.
+**Query Parameters:**
 
-**Parameters:**
-
--   `query` (string): The search query
--   `k` (integer): The number of documents to return
+| Name | Type | Required | Description |
+| :--- | :--- | :--- | :--- |
+| `query` | string | yes | The search query string |
+| `k` | integer | yes | Number of documents to return |
 
 **Response Format:**
 

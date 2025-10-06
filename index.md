@@ -6,6 +6,36 @@ subtitle: NeurIPS 2025 Competition
 
 Welcome to the official website of **MMU-RAG**: the *Massive Multi-Modal User-Centric Retrieval-Augmented Generation* Benchmark. This competition invites researchers and developers to build RAG systems that perform in real-world conditions.
 
+___
+### Update 06 Oct 2025
+As we approach the competition deadline, we’d like to share a few important updates and reminders to help you prepare your final submissions.
+
+#### 🗓️ Submission Deadline
+The submission will close on October 15 (23:59 AoE). Please make sure all materials are uploaded before the deadline.
+
+#### 📂 Test Dataset for Static Evaluation
+For participants taking part only in the static evaluation, the test-release dataset is now available at the following links: 
+Text-to-Text Test Set (For static evaluation) 
+Text-to-Video Test Set (For static evaluation)
+Please follow the submission instructions in the documentation and generate responses only for the queries in this list. 
+
+#### 📝 Short System Paper
+We ask each participating team to prepare a short paper describing your system and methodology.
+Please use the NeurIPS short-paper format (2–4 pages).
+
+This write-up will serve as part of the competition record and allow others to learn from your approach.
+
+Submission details for the paper will be shared shortly after the system submission deadline.
+
+#### 🗣️ Workshop & Presentations
+We’re excited to announce that the MMU-RAG Workshop will take place at NeurIPS 2025 on
+ 📅 Sunday, December 7, from 3–6 PM PDT.
+Selected teams will be invited to present their work during the session.
+ If you are interested in presenting (accommodating both in-person or virtually), please indicate your interest when submitting your final materials.
+
+Thank you again for being part of MMU-RAG! We’re looking forward to seeing your submissions and showcasing your work at NeurIPS.
+___
+
 Participants will tackle real-user queries, retrieve from web-scale corpora, and generate high-quality responses in both text and/or video formats.
 
 **MMU-RAG** features two tracks:

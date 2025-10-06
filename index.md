@@ -34,6 +34,7 @@ Selected teams will be invited to present their work during the session.
  If you are interested in presenting (accommodating both in-person or virtually), please indicate your interest when submitting your final materials.
 
 Thank you again for being part of MMU-RAG! We’re looking forward to seeing your submissions and showcasing your work at NeurIPS.
+
 ___
 
 Participants will tackle real-user queries, retrieve from web-scale corpora, and generate high-quality responses in both text and/or video formats.

@@ -15,8 +15,8 @@ The submission will close on October 15 (23:59 AoE). Please make sure all materi
 
 #### 📂 Test Dataset for Static Evaluation
 For participants taking part only in the static evaluation, the test-release dataset is now available at the following links: 
-1. [Text-to-Text Test Set (For static evaluation) ]([url](https://drive.google.com/file/d/1D_lbDseQIf-_f2ebTiEv1ebOoSN9PgeQ/view?usp=sharing))
-2. [Text-to-Video Test Set (For static evaluation)]([url](https://drive.google.com/file/d/1fTbAhdqfMVUj1vrbBUUdVZz2H9Wtj-WM/view?usp=sharing))
+1. [Text-to-Text Test Set (For static evaluation) ](https://drive.google.com/file/d/1D_lbDseQIf-_f2ebTiEv1ebOoSN9PgeQ/view?usp=sharing)
+2. [Text-to-Video Test Set (For static evaluation)](https://drive.google.com/file/d/1fTbAhdqfMVUj1vrbBUUdVZz2H9Wtj-WM/view?usp=sharing)
 
 Please follow the submission instructions in the documentation and generate responses only for the queries in this list. 
 

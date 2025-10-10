@@ -77,16 +77,13 @@ Submissions are evaluated using a blend of:
 <td>Human Likert Ratings</td>
 </tr>
 <tr>
-<td rowspan="3"><strong>Text-to-video</strong></td>
+<td rowspan="2"><strong>Text-to-video</strong></td>
 <td>Automatic</td>
 <td>Subject Consistency, Background Consistency, Motion Smoothness, Dynamic Degree, Aesthetic Quality, Imaging Quality (from <a href="https://vchitect.github.io/VBench-project/">VBench</a>)</td>
 </tr>
 <tr>
-<td>LLM-as-a-Judge</td>
-<td rowspan="2">Relevance, Precision, Recall, Usefulness</td>
-</tr>
-<tr>
 <td>Human Likert Ratings</td>
+<td>Relevance, Precision, Recall, Usefulness</td>
 </tr>
 </tbody>
 </table>
@@ -105,14 +102,16 @@ Two exciting tracks, both with provided corpora, APIs, and starter codes. You ar
 |---|---|
 | **Standard text-to-text RAG:** Create systems that retrieve from a text corpus and generate text responses from text queries<br><br>**Deep Research Systems welcome!** e.g. Multi-hop retrieval, Structured reasoning, Integration with external tools or knowledge bases, etc. | **More novel task!** Given text queries that benefit from video outputs ("how to peel banana"), Retrieve from a text corpus and generate video responses. |
 
-### Aug 1 - Oct 15: **ACTION REQUIRED**: Register to get necessary resources
+### Aug 1 - Oct 24: **ACTION REQUIRED**: Register to get necessary resources
 
 - Go to [Getting Started page](/MMU-RAGent/getting-started) to see:
   - Our competition rules
   - Instructions on registration (required)
   - Detailed instructions for the two tracks
 
-### Aug 1 - Oct 15: **ACTION REQUIRED**: Competition Submission
+### Aug 1 - Oct 24: **ACTION REQUIRED**: Competition Submission
+
+**Deadline extended to October 24, 2025 (23:59 AoE)** for both Text-to-Text and Text-to-Video tracks.
 
 - Step-by-step instructions for the [text-to-text](/MMU-RAGent/text-to-text) and [text-to-video](/MMU-RAGent/text-to-video) tracks.
 - Submission options preview (applicable for both tracks):
@@ -121,7 +120,7 @@ Two exciting tracks, both with provided corpora, APIs, and starter codes. You ar
 |---|---|
 | Run your system on the public validation set<br><br>Submit outputs (.jsonl or video folder) via Google Drive<br><br>Eligible for honorable mentions and website features | Package your RAG system as a Docker image<br><br>Submit via AWS ECR for live + static evaluation<br><br>Eligible for leaderboard rankings and cash prizes |
 
-### Oct 15–21: **Organizers Running Evaluations**
+### Oct 24 - Nov: **Organizers Running Evaluations**
 
 - Submissions will be evaluated using a blend of:
   - Automatic metrics

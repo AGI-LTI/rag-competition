@@ -180,7 +180,9 @@ Content-Type: application/json
 
 #### Streaming API
 
-Your system must implement a specific streaming API that follows our standardized response format. This is for us to integrate your system into our RAG-Arena live evaluation system. 
+Your system must implement a specific streaming API that follows our standardized response format. This is for us to integrate your system into our RAG-Arena live evaluation system.
+
+**⚠️ Important Note:** The live RAG-Arena can be accessed by multiple users simultaneously. Please ensure your submission is designed to handle at least **10-15 concurrent requests** efficiently and reliably. 
 
 
 ##### Required Endpoint

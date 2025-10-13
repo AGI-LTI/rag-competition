@@ -13,6 +13,8 @@ Participants in this option must submit a single, complete, containerized system
 
 The combined results from both evaluations will determine the final leaderboard and prize winners.
 
+**⚠️ Important Note:** The live RAG-Arena can be accessed by multiple users simultaneously. Please ensure your submission is designed to handle at least **10-15 concurrent requests** efficiently and reliably.
+
 #### DockerImage Creation and ECR repository push Sample Commands
 
 ```

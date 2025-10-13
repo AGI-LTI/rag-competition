@@ -124,7 +124,7 @@ We require your submission to fulfil the following requirements for us to perfor
 
 2. Complete the `generator` function in the starter code
 
-   
+**⚠️ Important Note:** The live RAG-Arena can be accessed by multiple users simultaneously. Please ensure your submission is designed to handle at least **10-15 concurrent requests** efficiently and reliably.
 
 The main backend has a single endpoint `generate-video` that returns the s3-Storage URI, the region of the s3 bucket (where the video is stored) and retrieved docs along with some metadata like the status and the error message.
 

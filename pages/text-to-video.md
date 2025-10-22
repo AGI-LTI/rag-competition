@@ -45,6 +45,9 @@ Each line in the validation set is a JSON object with the following fields:
 We provide a modular starter code template to help you build your RAG system efficiently. The codebase is structured with separate components for each stage of the pipeline, making it easy to experiment and iterate.
 
 
+### Generated Video Specifications
+
+We expect the generated videos for each query to be **5-6** seconds in duration.
 
 **Starter Code File**: [https://github.com/AGI-LTI/MMU-RAG-Starter/blob/main/Text-to-Video/submission_starter_video.py](https://github.com/AGI-LTI/MMU-RAG-Starter/blob/main/Text-to-Video/submission_starter_video.py)
 

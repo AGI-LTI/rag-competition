@@ -127,7 +127,7 @@ Two exciting tracks, both with provided corpora, APIs, and starter codes. You ar
   - LLM-as-a-judge evaluations
   - Real-time user feedback from our RAG-Arena
 
-**Action required:** All participants are required to submit a report detailing their system, methods, and results. Top-performing and innovative teams will be invited to present their work at our associated NeurIPS 2025 workshop. Further details on the report format and submission deadlines will be announced soon.
+**Action required:** All participants are required to submit a report detailing their system, methods, and results. The system report should be 2–4 page short paper following the NeurIPS short-paper format. Top-performing and innovative teams will be invited to present their work at our associated NeurIPS 2025 workshop.
 
 ### Dec 6-7: **MMU-RAG Workshop at NeurIPS 2025**
 

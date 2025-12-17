@@ -6,8 +6,114 @@ subtitle: NeurIPS 2025 Competition
 
 Welcome to the official website of **MMU-RAG**: the *Massive Multi-Modal User-Centric Retrieval-Augmented Generation* Benchmark. This competition invites researchers and developers to build RAG systems that perform in real-world conditions.
 
+
+---
+# **2025 MMU-RAGent Competition — Official Winners Announcement**
+
+We are excited to announce the results of the 2025 MMU-RAGent Competition, which brought together teams from around the world to tackle challenging problems in multimodal Retrieval-Augmented Generation (RAG). This year’s competition featured two tracks: (1) Text-to-Text and (2) Text-to-Video. Both tracks were evaluated through a combination of automatic metrics, LLM-as-a-judge, human annotation, and our real-time RAG-Arena live evaluation.
+
+Across both tracks, participants demonstrated creative system designs, robust retrieval pipelines, and thoughtful approaches to grounding generative models in multimodal evidence.
+
+------
+
+
+
+## **Participation Overview**
+
+This year’s competition received:
+
+- **8 full-system submissions** to the Text-to-Text track
+- **2 additional validation-only submissions**, and
+- **1 full-system submission** to the Text-to-Video track
+
+To support development, we released development, validation, and held-out test sets totalling nearly **1,000 queries**.
+Human evaluation played a central role in our assessment: across both tracks, we collected **2,315 annotations** from **1,197 annotators**, ensuring broad and reliable feedback on relevance, factuality, and utility.
+
+------
+
+
+
+# **Text-to-Text Track Winners**
+
+Final rankings were determined using a robustness-aware aggregation of normalized automatic metrics and human Likert evaluations, with LLM-as-a-judge analysis informing, but not directly contributing, to the final scores.
+
+Winners were recognized in two evaluation modes:
+
+- **Static Evaluation:** Teams distinguished themselves through strong semantic alignment, factual grounding, and robustness across automatic and human Likert evaluation modalities.
+- **Dynamic Evaluation (RAG-Arena):** In real-time interactive comparisons, these winners were preferred most frequently by users, highlighting the importance of evaluating not just correctness, but also clarity, usefulness, and overall preference.
+
+---
+
+<table class="no-stripe">
+<thead>
+<tr>
+<th style="text-align: center;"><strong>🏆 Open Source</strong></th>
+<th style="text-align: center;"><strong>🏆 Closed Source</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="vertical-align: top; padding: 1.5rem;">
+<h3 style="margin-top: 0; color: #2c3e50;">🥇 Best Static Evaluation</h3>
+<p style="font-size: 1.3em; font-weight: bold; margin: 0.5rem 0; color: #1a73e8;"><strong>Efficient-Deep-Research</strong></p>
+<br>
+<h3 style="margin-top: 1rem; color: #2c3e50;">🥇 Best Dynamic Evaluation</h3>
+<p style="font-size: 1.3em; font-weight: bold; margin: 0.5rem 0; color: #1a73e8;"><strong>RMIT-ADMS IR</strong></p>
+</td>
+<td style="vertical-align: top; padding: 1.5rem;">
+<h3 style="margin-top: 0; color: #2c3e50;">🥇 Best Static Evaluation</h3>
+<p style="font-size: 1.3em; font-weight: bold; margin: 0.5rem 0; color: #1a73e8;"><strong>Cattalyya</strong></p>
+<br>
+<h3 style="margin-top: 1rem; color: #2c3e50;">🥇 Best Dynamic Evaluation</h3>
+<p style="font-size: 1.3em; font-weight: bold; margin: 0.5rem 0; color: #1a73e8;"><strong>Nightfeats</strong></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+------
+
+
+
+# **Text-to-Video Track Winner**
+
+The Text-to-Video track received one full submission, DeepVideoResearcher, We evaluated the system against a strong baseline (Nova-Reel) using both VBench automatic metrics and human utility assessments.
+
+Although the baseline demonstrated higher visual-quality metrics, human evaluators preferred deepvideo-researcher for relevance, precision, and overall utility to the query. This highlights the gap between traditional visual metrics and user-oriented evaluation of RAG-generated videos.
+
+---
+
+<table class="no-stripe">
+<tbody>
+<tr>
+<td style="vertical-align: top; padding: 1.5rem; text-align: center;">
+<h3 style="margin-top: 0; color: #2c3e50;">🏆 Best Human Likert Rating</h3>
+<p style="font-size: 1.3em; font-weight: bold; margin: 0.5rem 0; color: #1a73e8;"><strong>Deepvideoresearcher</strong></p>
+<p style="margin-top: 0.5rem; color: #666;">Outperformed the baseline text-to-video model in Human Likert Rating</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+------
+
+
+
+# **Key Insights From This Year’s Evaluation**
+
+- **Human and LLM-as-a-judge ratings align strongly** (correlations ≈ 0.93), validating the use of LLMs for diagnostic evaluation while reinforcing that human ratings should remain the final authority.
+- **Live evaluation matters:** Arena preferences revealed qualitative distinctions not captured by static metrics.
+- **Multimodal video evaluation remains challenging:** Existing automatic metrics emphasize visual fidelity, while human evaluators prioritize task relevance and procedural clarity.
+
+------
+
+
+
+We extend our warmest congratulations to the winning teams, and our sincere appreciation to every participant who contributed to this year’s competition. Your work pushes the boundaries of retrieval-augmented generation and helps shape the future of multimodal reasoning systems.
+
 ___
-### Update 06 Oct 2025
+
+<!-- ### Update 06 Oct 2025
 As we approach the competition deadline, we’d like to share a few important updates and reminders to help you prepare your final submissions.
 
 #### 🗓️ Submission Deadline
@@ -156,7 +262,7 @@ Prize eligibility requires full system reproducibility and clear documentation o
 
 # Contact Us
 
-For any questions or clarifications, email the organizers directly at: mmu-rag@andrew.cmu.edu
+For any questions or clarifications, email the organizers directly at: mmu-rag@andrew.cmu.edu -->
 
 ## Organizers
 
